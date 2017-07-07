@@ -1,0 +1,12 @@
+configuration:  
+  projectName: gateway-service
+
+server:
+  port: 8001
+
+eureka:  
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
